@@ -1,0 +1,38 @@
+<!doctype html>
+<head>
+<meta name="viewport" content="width=device-width">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Asul:400,700' rel='stylesheet' type='text/css'>
+
+<link type="text/css" rel="stylesheet" href="sideviewmenu.css" />
+
+<script src="sideviewmenu.js">
+
+/***********************************************
+* Page Sideview Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+<script>
+
+jQuery(function(){ // on DOM Load
+	sideviewmenu({ // call sideviewmenu() function
+		menuid: 'sideviewmenu',
+		onopenclose:function(state){ // state is either "open" or "closed"
+			// custom code
+		}
+	})
+})
+
+</script>
+</head>
+<body>
+
+<div class="toggler" onClick="sideviewmenu.toggle()"></div>
+
+</body>
+</html>

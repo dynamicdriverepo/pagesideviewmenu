@@ -1,0 +1,25 @@
+{
+  "name": "pagesideviewmenu",
+  "title": "Page Sideview Menu",
+  "description": "This menu displays itself prominently on the page with the help of css3 transforms and transitions. The menu glides in from the left edge of the screen while shrinking the rest of the page content into the background, bringing the user's focus squarely on the menu itself. Clicking anywhere on the page again hides the menu and returns the page back to its original state.",
+  "keywords": ["menu", "site", "navigation"],
+  "version": "1.0.0",
+  "author": {
+    "name": "Dynamic Drive",
+    "email" : "ddrivehelp@gmail.com",
+		"url": "http://www.dynamicdrive.com"
+  },
+  "licenses": [
+    {
+      "type": "Freeware",
+      "url": "http://www.dynamicdrive.com/notice.htm"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.10"
+  },
+  "homepage": "http://www.dynamicdrive.com/dynamicindex1/sideviewmenu.htm",
+  "docs": "http://www.dynamicdrive.com/dynamicindex1/sideviewmenu.htm",
+  "demo": "http://www.dynamicdrive.com/dynamicindex1/sideviewmenu.htm",
+  "download": "http://www.dynamicdrive.com/dynamicindex1/sideviewmenu.htm"
+}
